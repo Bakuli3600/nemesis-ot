@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-white text-ink-900 font-sans;
+  }
+  ::selection {
+    background: rgba(0, 113, 227, 0.18);
+  }
+}
+
+@layer components {
+  /* Apple-style light card */
+  .card {
+    @apply rounded-2xl border border-black/5 bg-white shadow-card;
+  }
+
+  /* Dark console panel (simulation / threat intel) */
+  .console-panel {
+    @apply rounded-2xl border border-white/10 bg-ink-950 shadow-console;
+  }
+
+  /* Apple-esque primary button */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent-blue px-6 py-3 text-sm font-medium text-white transition hover:bg-accent-blue-dark active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue/60 focus-visible:ring-offset-2;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-black/10 bg-white px-5 py-3 text-sm font-medium text-ink-900 transition hover:bg-fog-100 active:scale-[0.98];
+  }
+
+  /* Small mono badge used across sections */
+  .badge-mono {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 font-mono text-[10px] font-medium tracking-wide uppercase;
+  }
+
+  /* Section heading kicker */
+  .kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-accent-blue;
+  }
+}

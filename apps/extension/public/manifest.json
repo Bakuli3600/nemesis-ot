@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Nemesis — Web3 Transaction Firewall",
+  "version": "1.0.0",
+  "description": "Pre-execution transaction interceptor & malicious signature simulator. Simulates wallet requests before you sign and blocks drainer patterns.",
+  "minimum_chrome_version": "114",
+  "permissions": ["storage", "sidePanel", "activeTab", "scripting", "tabs"],
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "action": {
+    "default_title": "Nemesis — Command Center",
+    "default_popup": "src/popup/index.html"
+  },
+  "background": {
+    "service_worker": "src/background/index.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/index.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/inject/interceptor.js"],
+      "world": "MAIN",
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["src/inject/interceptor.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "address": "0x5534a781298715EdfB42542a9b6d6168954de012",
+    "label": "Demo User Wallet (Active)",
+    "profile": "High Net Worth Web3 Collector",
+    "ethBalance": "2.315",
+    "tokens": [
+      { "symbol": "USDC", "balance": "14500.00", "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" },
+      { "symbol": "WETH", "balance": "3.50", "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2" }
+    ],
+    "nfts": [
+      { "collection": "BoredApeYachtClub", "id": "4819", "contract": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D" },
+      { "collection": "Azuki", "id": "1044", "contract": "0xED5AF388653567Af2F388E6224dC7C4b3241C544" }
+    ]
+  },
+  {
+    "address": "0x6666666666666666666666666666666666666666",
+    "label": "Observed Drainer Treasury",
+    "profile": "Automated Sybil Liquidation Wallet",
+    "ethBalance": "184.22",
+    "tokens": [],
+    "nfts": []
+  }
+]

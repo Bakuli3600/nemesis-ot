@@ -1,0 +1,36 @@
+[
+  {
+    "id": "EXP-2026-9021",
+    "target": "0x5534a781298715EdfB42542a9b6d6168954de012",
+    "threatCluster": "Operation RedHook Phishing Sybil",
+    "severity": "HIGH",
+    "confidence": 88,
+    "source": "Dark-Web Threat Intelligence Feed (Simulated)",
+    "observedDate": "2026-03-08T22:15:00Z",
+    "details": "User wallet address was correlated with a targeted phishing target list harvested from fake Discord airdrop invite forms.",
+    "routeNodes": [
+      "Relay Alpha (Zurich, CH)",
+      "Relay Bravo (Reykjavik, IS)",
+      "Relay Charlie (Helsinki, FI)",
+      "Cognitia Threat Mirror Node #04"
+    ],
+    "isSimulated": true
+  },
+  {
+    "id": "EXP-2026-9022",
+    "target": "0x7777777777777777777777777777777777777777",
+    "threatCluster": "CryptoGrabber C2 Infrastructure",
+    "severity": "CRITICAL",
+    "confidence": 97,
+    "source": "Dark-Web Threat Intelligence Feed (Simulated)",
+    "observedDate": "2026-03-10T14:45:00Z",
+    "details": "Contract address advertised on underground developer forum '0xDarkMarkets' as part of an 'all-in-one ERC721 drainer kit v4'.",
+    "routeNodes": [
+      "Relay Alpha (Zurich, CH)",
+      "Relay Delta (Amsterdam, NL)",
+      "Relay Echo (Stockholm, SE)",
+      "Cognitia Threat Mirror Node #09"
+    ],
+    "isSimulated": true
+  }
+]

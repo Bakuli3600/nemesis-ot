@@ -1,0 +1,12 @@
+packages:
+  - "packages/*"
+  - "apps/*"
+
+# pnpm 12's default supply-chain policy blocks packages published <24h ago,
+# which failed for @types/three, hls.js and lucide-react (all published yesterday).
+# Remove this line once those versions are >24h old to restore the default protection.
+minimumReleaseAge: 0
+
+# esbuild (Vite's bundler) needs its postinstall script to set up the platform binary.
+allowBuilds:
+  esbuild: true

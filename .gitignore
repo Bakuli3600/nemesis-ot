@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+tests/browser/.chrome-user-data/
+
+# Temporary files
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Extension specific
+apps/extension/dist/
+apps/extension-firefox/release/
+apps/demo-dapp/dist/
+
+# Demo/Simulated data that shouldn't be committed
+data/*.local.json
+
+# Misc
+automodv.cache
+.cache/
+.sass-cache/

@@ -1,0 +1,1 @@
+{"version":1,"failures":[{"contract":"FakeRewards.t.sol:FakeRewardsTest","test":"test_ClaimRewards_GrantsOperatorApproval"},{"contract":"FakeRewards.t.sol:FakeRewardsTest","test":"test_FaucetDrain_OnlyDeployer"}]}

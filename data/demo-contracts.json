@@ -1,0 +1,57 @@
+[
+  {
+    "address": "0x7777777777777777777777777777777777777777",
+    "name": "FakeRewardsClaimer",
+    "deployer": "0x9999999999999999999999999999999999999999",
+    "isVerified": false,
+    "hasBytecode": true,
+    "reputation": "MALICIOUS",
+    "createdTimestamp": 1709900000,
+    "threatCluster": "Cluster-Labyrinth-7",
+    "tags": ["Phishing", "Airdrop Drainer", "FakeRewards"]
+  },
+  {
+    "address": "0x6666666666666666666666666666666666666666",
+    "name": "MaliciousSeaportOperator",
+    "deployer": "0x9999999999999999999999999999999999999999",
+    "isVerified": false,
+    "hasBytecode": true,
+    "reputation": "MALICIOUS",
+    "createdTimestamp": 1709800000,
+    "threatCluster": "Cluster-Labyrinth-7",
+    "tags": ["NFT Sweeper", "Approval Exploiter"]
+  },
+  {
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin (USDC)",
+    "deployer": "0x0000000000000000000000000000000000000000",
+    "isVerified": true,
+    "hasBytecode": true,
+    "reputation": "TRUSTED",
+    "createdTimestamp": 1533000000,
+    "threatCluster": "Legitimate",
+    "tags": ["ERC20", "Stablecoin", "Circle"]
+  },
+  {
+    "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "name": "Uniswap V3: SwapRouter02",
+    "deployer": "0x1a9C8182C09F50C8318d769245beA52c32BE35BC",
+    "isVerified": true,
+    "hasBytecode": true,
+    "reputation": "TRUSTED",
+    "createdTimestamp": 1638000000,
+    "threatCluster": "Uniswap",
+    "tags": ["DEX", "Router", "DeFi"]
+  },
+  {
+    "address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
+    "name": "BoredApeYachtClub",
+    "deployer": "0xaBA7161A7fb69c88e16ED9f455CE62B791EE72db",
+    "isVerified": true,
+    "hasBytecode": true,
+    "reputation": "TRUSTED",
+    "createdTimestamp": 1619000000,
+    "threatCluster": "YugaLabs",
+    "tags": ["ERC721", "NFT", "Bluechip"]
+  }
+]

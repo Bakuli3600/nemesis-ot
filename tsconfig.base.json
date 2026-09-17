@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cognitia/core": ["packages/core/src/index.ts"],
+      "@cognitia/core/*": ["packages/core/src/*"],
+      "@cognitia/shared": ["packages/shared/src/index.ts"],
+      "@cognitia/shared/*": ["packages/shared/src/*"],
+      "@cognitia/decoder": ["packages/decoder/src/index.ts"],
+      "@cognitia/decoder/*": ["packages/decoder/src/*"],
+      "@cognitia/risk-engine": ["packages/risk-engine/src/index.ts"],
+      "@cognitia/risk-engine/*": ["packages/risk-engine/src/*"],
+      "@cognitia/simulator": ["packages/simulator/src/index.ts"],
+      "@cognitia/simulator/*": ["packages/simulator/src/*"],
+      "@cognitia/state-diff": ["packages/state-diff/src/index.ts"],
+      "@cognitia/state-diff/*": ["packages/state-diff/src/*"],
+      "@cognitia/threat-intel": ["packages/threat-intel/src/index.ts"],
+      "@cognitia/threat-intel/*": ["packages/threat-intel/src/*"],
+      "@cognitia/exposure": ["packages/exposure/src/index.ts"],
+      "@cognitia/exposure/*": ["packages/exposure/src/*"],
+      "@cognitia/ui": ["packages/ui/src/index.ts"],
+      "@cognitia/ui/*": ["packages/ui/src/*"],
+      "@cognitia/security": ["packages/security/src/index.ts"],
+      "@cognitia/security/*": ["packages/security/src/*"]
+    }
+  }
+}

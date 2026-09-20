@@ -352,6 +352,15 @@ caching · per-origin policy memory · Anvil container in CI.
 
 ---
 
+## 12. 🏆 Award — 1st Runner Up @ Cognitia 2026
+
+Nemesis won **1st Runner Up** in the Blockchain & Cybersecurity track (BLOCKCHAIN-PS2) at
+**Cognitia 2026**.
+
+![Nemesis — 1st Runner Up, Cognitia 2026](docs/award-cognitia-2026.jpeg)
+
+---
+
 **COGNITIA 2026 · Blockchain & Cybersecurity · BLOCKCHAIN-PS2**
 *All demonstration data — threat clusters, dark-web listings, wallets — is simulated and clearly
 labeled. No real dark-web service or malicious infrastructure is ever contacted.*

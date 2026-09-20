@@ -19,5 +19,8 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'node',
+    // Browser E2E tests need the built extension and Chrome; they run via
+    // `pnpm test:browser` (vitest.browser.config.ts), after `pnpm build`.
+    exclude: ['**/node_modules/**', 'tests/browser/**'],
   },
 });

@@ -342,6 +342,16 @@ caching · per-origin policy memory · Anvil container in CI.
 
 ---
 
+## 11. Contributors
+
+| | Contributor |
+|---|---|
+| <img src="https://github.com/sagarsah737.png?size=64" width="36" alt="sagarsah737"> | [@sagarsah737](https://github.com/sagarsah737) |
+| <img src="https://github.com/Steins-Gate-1.png?size=64" width="36" alt="Steins-Gate-1"> | [@Steins-Gate-1](https://github.com/Steins-Gate-1) |
+| <img src="https://github.com/soumyadeep888.png?size=64" width="36" alt="soumyadeep888"> | [@soumyadeep888](https://github.com/soumyadeep888) |
+
+---
+
 **COGNITIA 2026 · Blockchain & Cybersecurity · BLOCKCHAIN-PS2**
 *All demonstration data — threat clusters, dark-web listings, wallets — is simulated and clearly
 labeled. No real dark-web service or malicious infrastructure is ever contacted.*
